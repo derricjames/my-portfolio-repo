@@ -7,31 +7,28 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Body styles */
 body {
-    background: #081b29;
+    background: linear-gradient(135deg, #040101, #222); /* Gradient background for a more modern look */
     color: #ededed;
-}
-
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10%;
-    background-color: #081b29;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Ensure body fills the screen */
     display: flex;
-    z-index: 100;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #081b29;
 }
 
-.logo {
-    font-size: 25px;
-    color: #ededed;
-    text-decoration: none;
-    font-weight: 600;
-    cursor: default;
-    opacity: 0;
-    animation: slideRight 1s ease forwards;
+/* Container styles */
+.container {
+    background: #222222;
+    border-radius: 15px; /* Rounded corners */
+    width: 90%; /* Almost the full width of the screen */
+    max-width: 1200px; /* Prevent the container from being too large */
+    height: 85%; /* Covers most of the height */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8); /* Shadow for depth */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Prevent content from overflowing */
 }
