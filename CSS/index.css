@@ -8,6 +8,8 @@
 /* Body styles */
 body {
     /* background: linear-gradient(135deg, #040101, #222); Gradient background for a more modern look */
+    /* background: url('path-to-your-image.jpg') no-repeat center center fixed; Add your image here */
+    /* background-size: cover; Make sure the image covers the full screen */
     background: #040101;;
     color: #ededed;
     margin: 0;
@@ -16,13 +18,14 @@ body {
     display: flex;
     justify-content: flex-start; /* Align content to the left */
     align-items: center; /* Vertically center the content */
-    font-family: 'Arial', sans-serif;
+    font-family: 'poppins', sans-serif;
     line-height: 1.6;
 }
 
 /* Container styles */
 .container {
     background: #222222;
+    /* background: rgba(34, 34, 34, 0.7); Semi-transparent dark background */
     width: 100%; /* Almost the full width of the screen */
     height: 85%; /* Covers most of the height */
     padding: 20px;
@@ -79,7 +82,7 @@ body {
 
 .nav-links li a:hover {
     border-color: #ededed;
-    background-color: rgba(237, 237, 237, 0.2);
+    background-color: rgb(80, 230, 80);
     border-radius: 5px;
 }
 
