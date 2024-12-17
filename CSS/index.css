@@ -77,8 +77,8 @@ body {
 
 .nav-links li a {
     text-decoration: none;
-    font-size: 30px;
-    color: #66fcf1;         
+    font-size: 20px;
+    color: #ededed;         
     padding: 10px 20px;
     border: 2px solid transparent;
     transition: all 0.3s ease;
@@ -94,16 +94,12 @@ body {
 }
   
 .nav-link.active {
-    text-decoration: underline;
-    color: #c5c6c7; /* Optional: Change text color for active link */
+    color: #66fcf1;
 }
   
 
 .nav-links li a:hover {
-    border-color: #ededed;
-    color: rgb(255, 255, 255);
-    background-color: #45a29e;
-    border-radius: 5px;
+    color: #66fcf1
 }
 
 /* Responsive Design */
