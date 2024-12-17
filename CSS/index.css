@@ -34,8 +34,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden; /* Prevent content from overflowing */
-    margin-left: 30px; /* Offset container from the left edge */
-    margin-right: 30px;
+    margin: 30px;
 }
 
 /* Home Section */
