@@ -10,7 +10,8 @@ body {
     /* background: linear-gradient(135deg, #040101, #222); Gradient background for a more modern look */
     /* background: url('path-to-your-image.jpg') no-repeat center center fixed; Add your image here */
     /* background-size: cover; Make sure the image covers the full screen */
-    background: #040101;;
+    /* background: #040101;; */
+    background: #0B0C10;
     color: #ededed;
     margin: 0;
     padding: 0;
@@ -24,7 +25,8 @@ body {
 
 /* Container styles */
 .container {
-    background: #222222;
+    /* background: #222222; */
+    background: #1F2833;
     /* background: rgba(34, 34, 34, 0.7); Semi-transparent dark background */
     width: 100%; /* Almost the full width of the screen */
     height: 85%; /* Covers most of the height */
@@ -48,15 +50,18 @@ body {
 
 /* Home Content */
 .home-content h3 {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 300;
     margin-bottom: 10px;
+    padding: 0px 25px;
 }
 
 .home-content h1 {
-    font-size: 48px;
+    font-size: 100px;
     font-weight: bold;
     margin-bottom: 20px;
+    color: #66fcf1;
+    padding: 0px 20px;
 }
 
 /* Navbar */
@@ -68,26 +73,42 @@ body {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
 }
 
 .nav-links li a {
     text-decoration: none;
-    font-size: 18px;
-    color: #ededed;         /* Light text color for links */
+    font-size: 30px;
+    color: #66fcf1;         
     padding: 10px 20px;
     border: 2px solid transparent;
     transition: all 0.3s ease;
 }
+  
+.nav-link:hover::after {
+    width: 100%; /* Expand underline on hover */
+}
+  
+/* Styling for the active link */
+.nav-link.active::after {
+    width: 100%; /* Full underline for the active link */
+}
+  
+.nav-link.active {
+    text-decoration: underline;
+    color: #c5c6c7; /* Optional: Change text color for active link */
+}
+  
 
 .nav-links li a:hover {
     border-color: #ededed;
-    background-color: rgb(80, 230, 80);
+    color: rgb(255, 255, 255);
+    background-color: #45a29e;
     border-radius: 5px;
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .home-content h1 {
         font-size: 36px;
     }
@@ -104,4 +125,4 @@ body {
     .nav-links li a {
         font-size: 16px;
     }
-}
+} */
